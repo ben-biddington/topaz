@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -d ./dist ] && [[ "$@" =~ "--clean" ]]; then
+  rm -r ./dist
+fi
+
+npx swc $PWD -d $PWD/dist
