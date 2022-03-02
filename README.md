@@ -1,5 +1,7 @@
 ## The -d option omits directories
 
+Reported [here](https://github.com/swc-project/swc/issues/2092)
+
 This is a simplified example: normally I have several directories in the root that I'd want included.
 
 I find that when using [the `-d` flag](https://swc.rs/docs/usage/cli#--out-dir--d), the output is missing some directories. 
